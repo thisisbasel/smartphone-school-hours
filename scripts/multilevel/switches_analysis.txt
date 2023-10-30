@@ -1,0 +1,183 @@
+Linear mixed model fit by REML ['lmerMod']
+Formula: avg_switch_velocity ~ nonSchool + faceToFace + blended + online +      sznFall + sznSpring + sznSummer + sznWinter + tzCentral +  
+    tzEastern + tzMountain + tzPacific + regNan + regNorthCentral +      regNorthEast + regSouth + regWest + gender + age + race +  
+    parentEdu + (1 | ID)
+   Data: df_daily_usage
+
+REML criterion at convergence: 24789.1
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-6.1922 -0.2231 -0.0664  0.0835 14.4674 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ ID       (Intercept)  6.23    2.496   
+ Residual             15.09    3.884   
+Number of obs: 4419, groups:  ID, 113
+
+Fixed effects:
+                Estimate Std. Error t value
+(Intercept)      7.20968    3.57879   2.015
+faceToFace      -0.65415    0.14874  -4.398
+blended         -0.25682    0.33606  -0.764
+online          -0.71530    0.33685  -2.124
+sznFall         -0.04915    0.19305  -0.255
+sznSpring        0.39939    0.20967   1.905
+sznSummer        0.25741    0.25446   1.012
+tzCentral       -1.11528    3.02004  -0.369
+tzEastern       -0.15506    3.00999  -0.052
+tzMountain       0.64589    1.18423   0.545
+regNan           0.03973    3.17858   0.012
+regNorthCentral  1.14903    2.90820   0.395
+regNorthEast    -0.11236    3.15190  -0.036
+regSouth         1.24735    2.98215   0.418
+gender          -0.18874    0.56520  -0.334
+age             -0.08090    0.18194  -0.445
+race            -0.94588    0.56030  -1.688
+parentEdu       -0.21978    0.12496  -1.759
+fit warnings:
+fixed-effect model matrix is rank deficient so dropping 4 columns / coefficients
+Linear mixed model fit by REML ['lmerMod']
+Formula: avg_switch_velocity ~ nonSchool + faceToFace + blended + online +      sznFall + sznSpring + sznSummer + sznWinter + tzCentral +  
+    tzEastern + tzMountain + tzPacific + regNan + regNorthCentral +      regNorthEast + regSouth + regWest + gender + age + race +  
+    parentEdu + (1 | ID)
+   Data: df_daily_usage
+REML criterion at convergence: 24789.11
+Random effects:
+ Groups   Name        Std.Dev.
+ ID       (Intercept) 2.496   
+ Residual             3.884   
+Number of obs: 4419, groups:  ID, 113
+Fixed Effects:
+    (Intercept)       faceToFace          blended           online          sznFall        sznSpring        sznSummer        tzCentral        tzEastern  
+        7.20968         -0.65415         -0.25682         -0.71530         -0.04915          0.39939          0.25741         -1.11528         -0.15506  
+     tzMountain           regNan  regNorthCentral     regNorthEast         regSouth           gender              age             race        parentEdu  
+        0.64589          0.03973          1.14903         -0.11236          1.24735         -0.18874         -0.08090         -0.94588         -0.21978  
+fit warnings:
+fixed-effect model matrix is rank deficient so dropping 4 columns / coefficients
+Linear mixed model fit by REML ['lmerMod']
+Formula: avg_switch_velocity ~ nonSchool + faceToFace + blended + online +      sznFall + sznSpring + sznSummer + sznWinter + tzCentral +  
+    tzEastern + tzMountain + tzPacific + regNan + regNorthCentral +      regNorthEast + regSouth + regWest + gender + age + race +  
+    parentEdu + (1 | ID)
+   Data: df_daily_usage
+
+REML criterion at convergence: 24789.1
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-6.1922 -0.2231 -0.0664  0.0835 14.4674 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ ID       (Intercept)  6.23    2.496   
+ Residual             15.09    3.884   
+Number of obs: 4419, groups:  ID, 113
+
+Fixed effects:
+                Estimate Std. Error t value
+(Intercept)      7.20968    3.57879   2.015
+faceToFace      -0.65415    0.14874  -4.398
+blended         -0.25682    0.33606  -0.764
+online          -0.71530    0.33685  -2.124
+sznFall         -0.04915    0.19305  -0.255
+sznSpring        0.39939    0.20967   1.905
+sznSummer        0.25741    0.25446   1.012
+tzCentral       -1.11528    3.02004  -0.369
+tzEastern       -0.15506    3.00999  -0.052
+tzMountain       0.64589    1.18423   0.545
+regNan           0.03973    3.17858   0.012
+regNorthCentral  1.14903    2.90820   0.395
+regNorthEast    -0.11236    3.15190  -0.036
+regSouth         1.24735    2.98215   0.418
+gender          -0.18874    0.56520  -0.334
+age             -0.08090    0.18194  -0.445
+race            -0.94588    0.56030  -1.688
+parentEdu       -0.21978    0.12496  -1.759
+fit warnings:
+fixed-effect model matrix is rank deficient so dropping 4 columns / coefficients
+Linear mixed model fit by REML ['lmerMod']
+Formula: avg_switch_velocity ~ nonSchool + faceToFace + blended + online +      sznFall + sznSpring + sznSummer + sznWinter + tzCentral +  
+    tzEastern + tzMountain + tzPacific + regNan + regNorthCentral +      regNorthEast + regSouth + regWest + gender + age + race +  
+    parentEdu + (1 | ID)
+   Data: df_daily_usage
+
+REML criterion at convergence: 24789.1
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-6.1922 -0.2231 -0.0664  0.0835 14.4674 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ ID       (Intercept)  6.23    2.496   
+ Residual             15.09    3.884   
+Number of obs: 4419, groups:  ID, 113
+
+Fixed effects:
+                Estimate Std. Error t value
+(Intercept)      7.20968    3.57879   2.015
+faceToFace      -0.65415    0.14874  -4.398
+blended         -0.25682    0.33606  -0.764
+online          -0.71530    0.33685  -2.124
+sznFall         -0.04915    0.19305  -0.255
+sznSpring        0.39939    0.20967   1.905
+sznSummer        0.25741    0.25446   1.012
+tzCentral       -1.11528    3.02004  -0.369
+tzEastern       -0.15506    3.00999  -0.052
+tzMountain       0.64589    1.18423   0.545
+regNan           0.03973    3.17858   0.012
+regNorthCentral  1.14903    2.90820   0.395
+regNorthEast    -0.11236    3.15190  -0.036
+regSouth         1.24735    2.98215   0.418
+gender          -0.18874    0.56520  -0.334
+age             -0.08090    0.18194  -0.445
+race            -0.94588    0.56030  -1.688
+parentEdu       -0.21978    0.12496  -1.759
+fit warnings:
+fixed-effect model matrix is rank deficient so dropping 4 columns / coefficients
+[1mindexing[0m [34mdf_f2f_participants.csv[0m [=------------------------------------------------------------------------------------------------] [32m293.75GB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [============================================-----------------------------------------------------] [32m520.89MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [===============================================--------------------------------------------------] [32m519.87MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [===================================================----------------------------------------------] [32m537.82MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=====================================================--------------------------------------------] [32m529.89MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [======================================================-------------------------------------------] [32m517.92MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=========================================================----------------------------------------] [32m522.46MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=============================================================------------------------------------] [32m531.79MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [================================================================---------------------------------] [32m527.79MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [==================================================================-------------------------------] [32m519.97MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=====================================================================----------------------------] [32m524.38MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=======================================================================--------------------------] [32m510.34MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [==========================================================================-----------------------] [32m512.58MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=============================================================================--------------------] [32m514.44MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [===============================================================================------------------] [32m510.19MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [==================================================================================---------------] [32m506.02MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [======================================================================================-----------] [32m508.56MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=========================================================================================--------] [32m503.04MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=============================================================================================----] [32m502.85MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [===============================================================================================--] [32m501.19MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=================================================================================================] [32m501.93MB/s[0m, eta: [36m 0s[0m                                                                                                                                                                                            [1mindexing[0m [34mdf_online_participants.csv[0m [=====-----------------------------------------------------------------------------------------] [32m176.91GB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_online_participants.csv[0m [==============================================================================================] [32m476.69MB/s[0m, eta: [36m 0s[0m                                                                                                                                                                                            [1mindexing[0m [34mdf_non_school_participants.csv[0m [=-----------------------------------------------------------------------------------------] [32m187.24GB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [===============================-----------------------------------------------------------] [32m505.72MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=================================---------------------------------------------------------] [32m509.98MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==================================--------------------------------------------------------] [32m503.57MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=====================================-----------------------------------------------------] [32m483.90MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=======================================---------------------------------------------------] [32m482.88MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=========================================-------------------------------------------------] [32m483.41MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==========================================------------------------------------------------] [32m463.16MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=============================================---------------------------------------------] [32m475.37MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [===============================================-------------------------------------------] [32m455.30MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=================================================-----------------------------------------] [32m447.14MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=====================================================-------------------------------------] [32m469.09MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=======================================================-----------------------------------] [32m470.61MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [========================================================----------------------------------] [32m465.31MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==========================================================--------------------------------] [32m466.67MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=============================================================-----------------------------] [32m476.20MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==============================================================----------------------------] [32m479.37MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=================================================================-------------------------] [32m474.18MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==================================================================------------------------] [32m467.27MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=====================================================================---------------------] [32m475.46MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [======================================================================--------------------] [32m474.48MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=========================================================================-----------------] [32m478.90MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [============================================================================--------------] [32m487.28MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=============================================================================-------------] [32m483.69MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==============================================================================------------] [32m478.79MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [================================================================================----------] [32m484.80MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [====================================================================================------] [32m491.11MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [======================================================================================----] [32m490.86MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=======================================================================================---] [32m485.83MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [========================================================================================--] [32m480.97MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=========================================================================================-] [32m476.43MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==========================================================================================] [32m464.41MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==========================================================================================] [32m462.58MB/s[0m, eta: [36m 0s[0m                                                                                                                                                                                            [1mindexing[0m [34mdf_blended_participants.csv[0m [===========----------------------------------------------------------------------------------] [32m684.35GB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_blended_participants.csv[0m [=============================================================================================] [32m459.16MB/s[0m, eta: [36m 0s[0m                                                                                                                                                                                            [1mindexing[0m [34mTeen_Demographics_n144.csv[0m [================================================================================================] [32m1.62GB/s[0m, eta: [36m 0s[0m                                                                                                                                                                                             [1] "ID"                  "avg_switch_velocity" "gender"              "age"                 "race"                "parentEdu"          
+ [7] "blended"             "faceToFace"          "nonSchool"           "online"              "sznFall"             "sznSpring"          
+[13] "sznSummer"           "sznWinter"           "tzCentral"           "tzEastern"           "tzMountain"          "tzPacific"          
+[19] "regNan"              "regNorthCentral"     "regNorthEast"        "regSouth"            "regWest"            
+Linear mixed model fit by REML ['lmerMod']
+Formula: avg_switch_velocity ~ nonSchool + faceToFace + blended + online +      sznFall + sznSpring + sznSummer + sznWinter + tzCentral +  
+    tzEastern + tzMountain + tzPacific + regNan + regNorthCentral +      regNorthEast + regSouth + regWest + gender + age + race +  
+    parentEdu + (1 | ID)
+   Data: df_daily_usage
+
+REML criterion at convergence: 24789.1
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-6.1922 -0.2231 -0.0664  0.0835 14.4674 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ ID       (Intercept)  6.23    2.496   
+ Residual             15.09    3.884   
+Number of obs: 4419, groups:  ID, 113
+
+Fixed effects:
+                Estimate Std. Error t value
+(Intercept)      7.20968    3.57879   2.015
+faceToFace      -0.65415    0.14874  -4.398
+blended         -0.25682    0.33606  -0.764
+online          -0.71530    0.33685  -2.124
+sznFall         -0.04915    0.19305  -0.255
+sznSpring        0.39939    0.20967   1.905
+sznSummer        0.25741    0.25446   1.012
+tzCentral       -1.11528    3.02004  -0.369
+tzEastern       -0.15506    3.00999  -0.052
+tzMountain       0.64589    1.18423   0.545
+regNan           0.03973    3.17858   0.012
+regNorthCentral  1.14903    2.90820   0.395
+regNorthEast    -0.11236    3.15190  -0.036
+regSouth         1.24735    2.98215   0.418
+gender          -0.18874    0.56520  -0.334
+age             -0.08090    0.18194  -0.445
+race            -0.94588    0.56030  -1.688
+parentEdu       -0.21978    0.12496  -1.759
+fit warnings:
+fixed-effect model matrix is rank deficient so dropping 4 columns / coefficients
+[1mindexing[0m [34mdf_f2f_participants.csv[0m [=------------------------------------------------------------------------------------------------] [32m338.62GB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=========================================--------------------------------------------------------] [32m472.63MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [============================================-----------------------------------------------------] [32m476.46MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [==============================================---------------------------------------------------] [32m475.23MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [===================================================----------------------------------------------] [32m488.43MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [====================================================---------------------------------------------] [32m463.02MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=======================================================------------------------------------------] [32m471.62MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [==========================================================---------------------------------------] [32m477.27MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [============================================================-------------------------------------] [32m464.64MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [==============================================================-----------------------------------] [32m463.23MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [===============================================================----------------------------------] [32m461.18MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [===================================================================------------------------------] [32m462.80MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [======================================================================---------------------------] [32m468.98MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [========================================================================-------------------------] [32m463.87MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [============================================================================---------------------] [32m467.30MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=================================================================================----------------] [32m477.80MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [====================================================================================-------------] [32m485.59MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=====================================================================================------------] [32m475.89MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [========================================================================================---------] [32m477.28MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [============================================================================================-----] [32m490.15MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=================================================================================================] [32m484.66MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_f2f_participants.csv[0m [=================================================================================================] [32m482.74MB/s[0m, eta: [36m 0s[0m                                                                                                                                                                                            [1mindexing[0m [34mdf_online_participants.csv[0m [===========-----------------------------------------------------------------------------------] [32m679.47GB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_online_participants.csv[0m [==============================================================================================] [32m544.76MB/s[0m, eta: [36m 0s[0m                                                                                                                                                                                            [1mindexing[0m [34mdf_non_school_participants.csv[0m [=-----------------------------------------------------------------------------------------] [32m374.08GB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=====================================-----------------------------------------------------] [32m592.13MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=========================================-------------------------------------------------] [32m617.03MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==========================================------------------------------------------------] [32m587.03MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==============================================--------------------------------------------] [32m578.14MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==================================================----------------------------------------] [32m597.65MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==================================================----------------------------------------] [32m577.59MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [======================================================------------------------------------] [32m585.09MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=======================================================-----------------------------------] [32m578.80MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==========================================================--------------------------------] [32m569.80MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [============================================================------------------------------] [32m566.18MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==============================================================----------------------------] [32m561.81MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [===============================================================---------------------------] [32m546.97MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==================================================================------------------------] [32m548.48MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [====================================================================----------------------] [32m542.01MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=====================================================================---------------------] [32m530.99MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=======================================================================-------------------] [32m539.85MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [=========================================================================-----------------] [32m527.91MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==========================================================================----------------] [32m516.69MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==============================================================================------------] [32m527.91MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [===============================================================================-----------] [32m519.79MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [===============================================================================-----------] [32m513.54MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==================================================================================--------] [32m511.20MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [====================================================================================------] [32m503.03MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [======================================================================================----] [32m488.26MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [========================================================================================--] [32m486.60MB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_non_school_participants.csv[0m [==========================================================================================] [32m489.33MB/s[0m, eta: [36m 0s[0m                                                                                                                                                                                            [1mindexing[0m [34mdf_non_school_participants.csv[0m [==========================================================================================] [32m489.31MB/s[0m, eta: [36m 0s[0m                                                                                                                                                                                            [1mindexing[0m [34mdf_blended_participants.csv[0m [=============--------------------------------------------------------------------------------] [32m832.85GB/s[0m, eta: [36m 0s[0m[1mindexing[0m [34mdf_blended_participants.csv[0m [=============================================================================================] [32m596.82MB/s[0m, eta: [36m 0s[0m                                                                                                                                                                                            [1]  203225  229425  258965 1002321 1004381 1048635

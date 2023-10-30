@@ -1,0 +1,61 @@
+Linear mixed model fit by REML. t-tests use Satterthwaite's method ['lmerModLmerTest']
+Formula: session_length_daily ~ nonSchool + faceToFace + blended + online +      sznFall + sznSpring + sznSummer + sznWinter + tzCentral +  
+    tzEastern + tzMountain + tzPacific + regNan + regNorthCentral +      regNorthEast + regSouth + regWest + gender + age + race +  
+    parentEdu + (1 | ID)
+   Data: df_daily_usage
+
+REML criterion at convergence: 28742.9
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-9.3903 -0.3342 -0.0908  0.1514  8.3490 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ ID       (Intercept) 40.08    6.331   
+ Residual             36.31    6.026   
+Number of obs: 4419, groups:  ID, 113
+
+Fixed effects:
+                 Estimate Std. Error        df t value Pr(>|t|)    
+(Intercept)        8.1241     8.6406  109.1416   0.940   0.3492    
+faceToFace        -1.8467     0.2318 4355.6837  -7.965 2.09e-15 ***
+blended           -0.3592     0.5247 4365.8109  -0.685   0.4936    
+online             1.0825     0.5287 4392.9368   2.047   0.0407 *  
+sznFall            0.6392     0.3019 4378.8776   2.117   0.0343 *  
+sznSpring          0.8035     0.3286 4389.0705   2.446   0.0145 *  
+sznSummer          0.9665     0.3986 4387.9758   2.425   0.0154 *  
+tzCentral         -1.0988     7.4082  102.7106  -0.148   0.8824    
+tzEastern          1.2209     7.3854  102.6075   0.165   0.8690    
+tzMountain         0.6042     2.9131  102.7443   0.207   0.8361    
+regNan            -1.9385     7.7925  103.1862  -0.249   0.8040    
+regNorthCentral    1.1151     7.1362  102.5432   0.156   0.8761    
+regNorthEast      -2.5250     7.7128  103.6434  -0.327   0.7440    
+regSouth           0.7198     7.3158  102.6571   0.098   0.9218    
+gender             0.1342     1.3623  110.2364   0.099   0.9217    
+age                0.3375     0.4423  106.2930   0.763   0.4470    
+race              -1.6927     1.3593  108.1443  -1.245   0.2157    
+parentEdu         -0.5302     0.3012  109.9938  -1.760   0.0811 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+fit warnings:
+fixed-effect model matrix is rank deficient so dropping 4 columns / coefficients
+                  Estimate Std. Error        df     t value     Pr(>|t|)
+(Intercept)      8.1241412  8.6406311  109.1416  0.94022545 3.491782e-01
+faceToFace      -1.8466967  0.2318456 4355.6837 -7.96519960 2.088629e-15
+blended         -0.3592474  0.5247081 4365.8109 -0.68466140 4.935940e-01
+online           1.0825330  0.5287237 4392.9368  2.04744564 4.067370e-02
+sznFall          0.6392231  0.3019398 4378.8776  2.11705483 3.431143e-02
+sznSpring        0.8035308  0.3285533 4389.0705  2.44566340 1.449761e-02
+sznSummer        0.9664556  0.3985673 4387.9758  2.42482394 1.535593e-02
+tzCentral       -1.0987515  7.4082378  102.7106 -0.14831483 8.823851e-01
+tzEastern        1.2209325  7.3853779  102.6075  0.16531754 8.690193e-01
+tzMountain       0.6042354  2.9131246  102.7443  0.20741831 8.360937e-01
+regNan          -1.9384853  7.7925108  103.1862 -0.24876261 8.040389e-01
+regNorthCentral  1.1151339  7.1362040  102.5432  0.15626430 8.761319e-01
+regNorthEast    -2.5250430  7.7127744  103.6434 -0.32738452 7.440374e-01
+regSouth         0.7197607  7.3158476  102.6571  0.09838377 9.218194e-01
+gender           0.1342002  1.3623111  110.2364  0.09850924 9.217068e-01
+age              0.3375444  0.4422817  106.2930  0.76318862 4.470415e-01
+race            -1.6926760  1.3592656  108.1443 -1.24528722 2.157177e-01
+parentEdu       -0.5302188  0.3011829  109.9938 -1.76045458 8.111029e-02
